@@ -1,0 +1,114 @@
+/*
+    Stylesheet for index element
+    tentative green: #46c144
+*/
+
+body {
+    background: #90CC8F;
+}
+
+#navbar {
+    line-height: 72px;
+    height: 72px;
+    padding-top: 0;
+    background: #5A8059;
+    border: none;
+}
+
+.navbar-header {
+    width: 35%;
+}
+
+#logo-and-name-link {
+    font-size: 48px;
+/*    color: #FFA07A;*/
+    color: #FA8072;
+}
+
+#name-alone {
+    position: relative;
+    top: 5px;
+}
+
+#navbar-right {
+    float: right;
+    margin-right: 3%;
+}
+
+#v-c-n {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#cog-wrapper {
+    margin: none;
+    padding: none;
+    float: right;
+}
+
+#back-to-landing{
+    background-color: transparent;
+    border-color: #90CC8F;
+    color: #90CC8F;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#user-prof {
+    background-color: transparent;
+    border-color: #90CC8F;
+    color: #90CC8F;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#outer-panel {
+    margin: auto;
+    width: 80%;
+    height: 86.5vh;
+}
+
+#company-and-logo {
+    text-align: center;
+    font-size: 36px;
+}
+
+#account-left {
+    float: left;
+    text-align: center;
+    margin-left: 4%;
+    width: 44%
+}
+
+#account-right {
+    float: left;
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 44%
+}
+
+#button-div {
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+#footer {
+    background-color: #5A8059;
+    border: none;
+}
+
+#footer-text {
+    color: #90CC8F;
+}
+
+#btn-handler {
+    text-align: center;
+}

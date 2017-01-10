@@ -1,0 +1,156 @@
+/*
+    Stylesheet for index element
+    tentative green: #46c144
+*/
+
+body {
+    background: #90CC8F;
+}
+
+#navbar {
+    line-height: 72px;
+    height: 72px;
+    padding-top: 0;
+    background: #5A8059;
+    border: none;
+}
+
+.navbar-header {
+    width: 35%;
+}
+
+#logo-and-name-link {
+    font-size: 48px;
+    color: #90CC8F;
+}
+
+#name-alone {
+    position: relative;
+    top: 5px;
+}
+
+#navbar-right {
+    float: right;
+    margin-right: 3%;
+}
+
+#v-c-n {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#cog-wrapper {
+    margin: none;
+    padding: none;
+    float: right;
+}
+
+#back-to-landing{
+    background-color: transparent;
+    border-color: #90CC8F;
+    color: #90CC8F;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#user-prof {
+    background-color: transparent;
+    border-color: #90CC8F;
+    color: #90CC8F;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#outer-panel {
+    margin: auto;
+    width: 80%;
+    height: 85.6vh;
+}
+
+#company-and-logo {
+    text-align: center;
+    font-size: 36px;
+}
+
+#pets-panel {
+    margin-top: -15px;
+    margin-left: -15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 79vh;
+    width: 33%;
+    float: left;
+}
+
+#pet-info {
+    float: left;
+}
+
+#pets-heading .panel-title {
+    text-align: center;
+    font-size: 24px;
+}
+
+#pets-scroll {
+    height: 95%;
+    margin-top: -32.1px;
+    overflow: auto;
+}
+
+.pet-box {
+    height: 61px;
+}
+
+/* TODO: DARKEN APPROPRIATELY */
+.pet-box:hover {
+    background-color: #5A8059;
+}
+
+#pet-info {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 61%;
+    text-align: left;
+    
+}
+
+#pet-name {
+    font-size: 36px;
+    text-align: center;
+}
+
+#pet-info-left {
+    float: left;
+    width: 33%;
+}
+
+#pet-info-center {
+    float: left;
+    width: 33%;
+}
+
+#pet-info-right {
+    float: right;
+    width: 33%;
+}
+
+#button-gen-div {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+#footer {
+    background-color: #5A8059;
+    border: none;
+}
+
+#footer-text {
+    color: #90CC8F;
+}

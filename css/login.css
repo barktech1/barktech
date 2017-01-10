@@ -1,0 +1,101 @@
+/*
+    Stylesheet for login element
+    tentative green: #46c144
+*/
+
+body {
+    background: #90CC8F;
+}
+
+#navbar {
+    line-height: 72px;
+    height: 72px;
+    padding-top: 0;
+    background: #5A8059;
+    border: none;
+}
+
+.navbar-header {
+    width: 35%;
+}
+
+#logo-and-name-link {
+    font-size: 48px;
+    color: #90CC8F;
+}
+
+#name-alone {
+    position: relative;
+    top: 5px;
+}
+
+#navbar-right {
+    float: right;
+    margin-right: 3%;
+}
+
+#back-to-landing{
+    background-color: transparent;
+    border-color: #90CC8F;
+    color: #90CC8F;
+    height: 40px;
+    width: 40px;
+}
+
+#login-create-buttons {
+    margin: auto;
+    width: 20%;
+    margin-top: 12.5%;
+    font-size: 20px;
+}
+
+#login-create-buttons .btn {
+    background-color: transparent;
+    border-color: #5A8059;
+    color: #5A8059;
+    font-size: 20px;
+}
+
+#login-box {
+    margin: auto;
+    margin-top: 12.5%;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.panel-heading {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#login-form {
+    text-align: center;
+    font-size: 24px;
+}
+
+#create-box {
+    margin: auto;
+    margin-top: 2.5%;
+    width: 50%;
+    border-radius: 20px;
+}
+
+#create-form {
+    text-align: left;
+    margin-left: 20%;
+    width: 60%;
+    font-size: 24px;
+}
+
+#footer {
+    background-color: #5A8059;
+    border: none;
+}
+
+#footer-text {
+    color: #90CC8F;
+}
+
+#btn-handler {
+    text-align: center;
+}

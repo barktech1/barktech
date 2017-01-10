@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/account.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet"> 
+    <link href="css/account.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-default" id="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <div id="logo-and-name-link">
+                        <img alt="barktech" src="assets/favicon.png" height=36 width=36>
+                        <span id="name-alone">BarkTech</span>
+                    </div>
+                </a> 
+            </div>
+            <div id="navbar-right">
+                <button class="btn navbar-button" id="user-prof" href="account.html">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                </button>
+                <span id="v-c-n">VET COMPANY NAME</span>
+                <div class="dropdown" id="cog-wrapper">
+                    <button class="btn navbar-button" id="back-to-landing" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="cog-wrapper">
+                        <li><a href="account.html">Account</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#" id="logout-btn" style="color: red;">Logout</a></li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAV BAR -->
+    
+    <div class="panel panel-default" id="outer-panel">
+        <div class="panel-heading">
+            <h3 class="panel-title" id="company-and-logo">
+                <span class="glyphicon glyphicon-picture" aria-hidden="true"></span>
+                VET COMPANY NAME
+            </h3>
+        </div>
+        <div class="panel-body" id="outer-panel-body">
+            
+            <div id="account-left">
+                <p>Metrics here?</p>
+            </div>
+            
+            <div id="account-right">
+                <p>Payment info?</p>
+            </div>
+            
+            <div id="button-div">
+                <button class="btn button-default" id="text-gen-trigger">
+                    <span>Manage Clients</span>
+                </button>
+                <br />
+                <br />
+                <button class="btn button-default" id="text-gen-trigger">
+                    <span>Update Info</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <div class="navbar navbar-default navbar-fixed-bottom" id="footer">
+        <div class="container" id="footer-text">
+            <p class="navbar-text pull-left" id="footer-text">Bark Technologies LLC. © 2016</p>
+            <a class="navbar-text pull-right" id="footer-text" href="about.html">Our Mission / FAQ / Contact Us</a>
+        </div>
+    </div>
+    <!-- END FOOTER -->
+</body>    
+    
+</html>
